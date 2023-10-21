@@ -1,0 +1,141 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background-image: url(imgs/Rectangle\ 187.png);
+    background-size:cover;
+    color:white;
+    border-radius: 0 0 30px 30px;
+    -webkit-border-radius: 0 0 30px 30px;
+    -moz-border-radius: 0 0 30px 30px;
+    -ms-border-radius: 0 0 30px 30px;
+    -o-border-radius: 0 0 30px 30px;
+}
+.bg h2{
+    font-family: Oswald;
+    font-weight: 500;
+    font-size: 80px;
+    text-align: center;
+    padding: 70px 0;
+}
+/*******TOP RATE**********/
+.top-rate{
+    margin: 20px 35px;
+}
+.top-rate h3 , .more-suggestion h3{
+    color:#322653;
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: -3px;
+}
+.top-rate hr{
+    background-color:#91C8E4;
+    width: 208px;
+    border: #91C8E4;
+    height: 13px;
+}
+/****Content of TOP RATE and MORE Suggestion***/
+.content{
+    padding: 30px 0;
+}
+.content .person{
+    position: relative;
+}
+.content .person img{
+    height: 435px;
+}
+.content .person .person-info{
+    position: absolute;
+    bottom:5px;
+    left: 0px;
+    width: 368px;
+    text-align: center;
+    background-color:#91C8E4CC;
+    padding: 20px 0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.person-info p.name{
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-weight: 600;
+    font-size: 25px;
+    color:#322653;
+    padding-bottom: 15px;
+}
+.person-info p.job{
+    font-family: Poppins;
+    color:#322653AD;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.person-info .stars{
+    color:#FFEEA3;
+    padding-bottom: 15px;
+}
+.person-info button{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color:white;
+    background-color: #4682A9;
+    border: none;
+    padding: 12px 75px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+.content .person .heart{
+    position: absolute;
+    top:10px;
+    left:340px;
+    color:#79A9C0;
+}
+/*********MORE Suggestion**********/
+.more-suggestion{
+    margin: 20px 35px;
+}
+.more-suggestion .content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 30px 0;
+    gap:20px;
+}
+.more-suggestion hr{
+    background-color:#91C8E4;
+    width: 442px;
+    border: #91C8E4;
+    height: 23px;
+}
+/*********Numbers***********/
+.numbers{
+    padding:20px;
+    text-align: center;
+    font-family: Oswald;
+    font-weight: 600;
+    font-size: 20px;
+}
+.numbers span{
+    border: 1px solid #B6B6B6;
+    padding: 5px 15px;
+    background-color: #B6B6B6;
+}
+.numbers span:first-child{
+    background-color: white;
+}
+
+
+
+
